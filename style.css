@@ -1,0 +1,123 @@
+body {
+    background: #084994;
+    font-family: 'fredoka one', Tahoma, sans-serif;
+    color: #fff;
+    transition: all 0.4s ease-out;
+}
+
+h2 {
+    font-size: 5vw;
+}
+
+header .navbar{
+    background: #042940;
+    padding: 20px 10vw;
+    font-weight: 100;
+    font-family: 'rowdies', Impact, sans-serif;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar a {
+    font-size: 1.75em;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+    border-bottom: 2px solid #042940;
+}
+
+.navbar a:focus {
+    color: #fff;
+    border-bottom: 2px solid #0ff;
+}
+.navbar a:hover {
+    color: #0ff;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    gap: 10px;
+    width: 60vw;
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-top: 5vh;
+    justify-content: center;
+}
+.h3 {
+    font-size: 3vw;
+}
+.head img {
+    width: 60%;
+}
+.margin-t {
+    margin-top: 10vh;
+}
+.about p {
+    width: 40vw;
+}
+
+#portfolio h4 {
+    font-size: 2vw;
+}
+
+.wrapper .contact-logo-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-wrapper img {
+    width: 70%;
+}
+.img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    aspect-ratio: 1/1;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.project-images {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    gap: 50px;
+}
+
+.project-images img {
+    max-width: 25vw;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease-out;
+}
+.project-images img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 25px 0 #fff;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    transform: translateX(1vw);
+}
+.contact-info p {
+    display: inline-block;
+    font-size: 1.4em;
+}
+footer {
+    background: #041668;
+}
+.space {
+    height: 15vh;
+    width: 100%;
+}
